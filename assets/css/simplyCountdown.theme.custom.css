@@ -1,0 +1,41 @@
+/**
+* Project : simply-countdown
+* File : simplyCountdown.theme.custom
+* Author : Your Name <YourMail@example.com>
+*/
+
+/* Custom Countdown Styles */
+.simply-countdown {
+    overflow: hidden;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    color: #fff;
+
+
+}
+
+.simply-countdown > .simply-section {
+    display: inline-block;
+    margin: 0 10px;
+    margin-top: 1em;
+}
+
+.simply-countdown > .simply-section > div {
+    background-color: var(--pink);
+    /*Backgroundcolorforcountdownblocks*/border-radius: 10px;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.simply-countdown > .simply-section .simply-amount {
+    font-size: 36px;
+    color: #f8f9fa; /* Amounts color */
+}
+
+.simply-countdown > .simply-section .simply-word {
+    font-size: 12px;
+    color: #f8f9fa; /* Words color */
+
+}
